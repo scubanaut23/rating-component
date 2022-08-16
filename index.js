@@ -8,3 +8,9 @@ ratings.forEach((element) => {
     );
   });
 });
+
+const submit = document.querySelector('.button');
+
+submit.addEventListener('click', function handleClick(event) {
+  location.href = './thankyou.html';
+});
