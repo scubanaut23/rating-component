@@ -22,7 +22,7 @@ body {
   height: 23rem;
 }
 
-svg {
+img {
   background-color: hsl(218, 17%, 22%);
   padding: 15px;
   border-radius: 50%;
@@ -55,17 +55,19 @@ svg {
   padding: 0;
 }
 
-.ratings a {
+.star {
   padding: 10px;
   color: hsl(216, 12%, 54%);
   text-decoration: none;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: hsl(218, 17%, 22%);
+  border: none;
+  cursor: pointer;
 }
 
 .button {
@@ -79,17 +81,21 @@ svg {
   margin-top: 25px;
   margin-bottom: 15px;
 }
-.ratings a:hover {
+.star:hover {
   background-color: hsl(216, 12%, 54%);
-  color: hsl(0, 0%, 100%);
-}
-
-.ratings a:active {
-  background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
 }
 
 .button:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+}
+
+.image {
+  background-color: hsl(213, 19%, 18%);
+}
+
+.rating-click {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
 }
