@@ -23,6 +23,10 @@ body {
   height: 23rem;
 }
 
+.card-content2 {
+  text-align: center;
+}
+
 .hide {
   display: none;
 }
